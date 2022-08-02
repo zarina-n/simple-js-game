@@ -1,2 +1,2 @@
 # simple-js-game
-A simple js game in the frame of JS course studying
+A simple js games file that I've created in the frame of JS course studying
