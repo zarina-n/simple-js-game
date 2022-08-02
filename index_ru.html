@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Игры</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" href="./img/puzzle-icon.png" type="image/icon type" />
+  </head>
+
+  <body>
+    <div class="top container">
+      <div class="navigation">
+        <nav class="nav">
+          <a class="language active" href="index_ru.html">Русский</a>
+          <a class="language" href="index_en.html">Английский</a>
+        </nav>
+      </div>
+      <div class="top__content">
+        <h1 class="top__title">
+          Добро пожаловать &NonBreakingSpace; на мой сайт !
+        </h1>
+        <p class="top__text text">
+          Вам предстоит пройти несколько увлекательных игр. Если готов нажимай
+          <span><a href="#game-list" class="top__text_link">поехали</a></span> и
+          <span><a href="#game-list" class="top__text_link">приступай</a></span>
+        </p>
+        <button class="top__btn btn">
+          <a class="btn__text" href="#game-list">Поехали!</a>
+        </button>
+      </div>
+    </div>
+
+    <div id="game-list" class="games container">
+      <div class="games__body">
+        <div class="games__item">
+          <a class="games__link" href="#game-1">
+            <div class="games__img">
+              <img
+                class="item__img"
+                src="./img/game_picture_1.jpg"
+                alt="game 1"
+              />
+            </div>
+            <div class="games__text">Игра 1</div>
+          </a>
+        </div>
+
+        <div class="games__item">
+          <a class="games__link" href="#game-2">
+            <div class="games__img">
+              <img
+                class="item__img"
+                src="./img/game_picture_2.jpg"
+                alt="game 2"
+              />
+            </div>
+            <div class="games__text">Игра 2</div>
+          </a>
+        </div>
+
+        <div class="games__item">
+          <a class="games__link" href="#game-3">
+            <div class="games__img">
+              <img
+                class="item__img"
+                src="./img/game_picture_3.jpg"
+                alt="game 3"
+              />
+            </div>
+            <div class="games__text">Игра 3</div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="product container">
+      <div id="game-1" class="product__box">
+        <div class="product__content content">
+          <h2 class="product__title title">Времена года!</h2>
+          <p class="product__text seasons__text text">
+            Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы
+            узнаете к какому времени года он относится
+          </p>
+          <button onclick="seasons();" class="product__btn btn">
+            <a class="btn__text" href="#">Играть!</a>
+          </button>
+          <script src="./js/script.js"></script>
+        </div>
+        <div>
+          <img
+            class="product__img"
+            src="./img/seasons.svg"
+            alt="Seasons game"
+          />
+        </div>
+      </div>
+
+      <div id="game-2" class="product__box product__box-reverse">
+        <div>
+          <img
+            class="product__img"
+            src="./img/remember.svg"
+            alt="Remember game"
+          />
+        </div>
+        <div class="product__content content">
+          <h2 class="product__title title">Запомни слова</h2>
+          <p class="product__text remember__text text">
+            При нажатии на кнопку играть, вы увидите несколько слов, которые вам
+            необходимо запомнить.
+          </p>
+          <button onclick="game2();" class="product__btn btn">
+            <a class="btn__text" href="#">Играть!</a>
+          </button>
+          <script src="./js/script.js"></script>
+        </div>
+      </div>
+    </div>
+
+    <div id="game-3" class="product__box riddles container">
+      <h2 class="product__title title">Игра в загадки</h2>
+      <p class="riddles__text container text">
+        Компьютер загадывает загадку, вам необходимо ее угадать, если вы дадите
+        не правильный ответ, то компьютер даст вам подсказку. У вас будет три
+        попытки и две подсказки.
+      </p>
+      <button onclick="guessARiddle();" class="product__btn game-3_btn btn">
+        <a class="btn__text" href="#">Играть!</a>
+      </button>
+      <script src="./js/script.js"></script>
+    </div>
+
+    <footer class="footer">
+      <p class="footer__text">Все права защищены</p>
+    </footer>
+  </body>
+</html>

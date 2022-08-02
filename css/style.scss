@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: Montserrat, serif;
+}
+
+.top {
+  background-image: url(../img/top_picture.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 1024px;
+}
+
+.container {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+.navigation {
+  padding: 25px;
+  display: flex;
+}
+
+.language {
+  text-decoration: none;
+  color: #ffffff;
+  margin-right: 25px;
+}
+
+.active {
+  font-weight: bold;
+}
+.top__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 78px;
+  color: #ffffff;
+  padding-top: 218px;
+  max-width: 788px;
+}
+
+.text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #ffffff;
+  margin-top: 32px;
+}
+
+.top__text {
+  max-width: 481px;
+}
+
+.top__text_link {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn {
+  background: #9c0332;
+  border-radius: 30px;
+  margin-top: 58px;
+  width: 235px;
+  padding: 12px 74px;
+
+  &:hover {
+    background: #eb443f;
+    cursor: pointer;
+    caret-color: #000;
+  }
+}
+
+.btn__text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.games {
+  background-color: #000915;
+}
+
+.games__body {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 128px 0px;
+  gap: 30px;
+}
+
+.item__img {
+  border-radius: 20px;
+  border: 3px solid transparent;
+  box-sizing: border-box;
+
+  &:hover {
+    border: 3px solid #44d2ff;
+  }
+}
+
+.games__item {
+  position: relative;
+  max-width: 379px;
+}
+
+.games__text {
+  position: absolute;
+  bottom: 32px;
+  left: 32px;
+}
+
+.games__link {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffff;
+}
+
+.product {
+  background-color: #000915;
+}
+
+.product__box {
+  padding: 233px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 59px;
+  color: #ffffff;
+  margin-bottom: 32px;
+}
+
+.product__text {
+  max-width: 584px;
+}
+
+.riddles {
+  background-image: url(/img/background_2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.riddles__text {
+  text-align: center;
+  max-width: 1200px;
+}
+
+.footer {
+  background-color: #000915;
+  display: flex;
+  justify-content: center;
+}
+.footer__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ffffff;
+  padding: 32px 0px;
+}
+
+@import "mobile";

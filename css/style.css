@@ -1,0 +1,293 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: Montserrat, serif;
+}
+
+.top {
+  background-image: url(../img/top_picture.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 1024px;
+}
+
+.container {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+.navigation {
+  padding: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.language {
+  text-decoration: none;
+  color: #FFFFFF;
+  margin-right: 25px;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.top__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 78px;
+  color: #FFFFFF;
+  padding-top: 218px;
+  max-width: 788px;
+}
+
+.text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
+  margin-top: 32px;
+}
+
+.top__text {
+  max-width: 481px;
+}
+
+.top__text_link {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn {
+  background: #9C0332;
+  border-radius: 30px;
+  margin-top: 58px;
+  width: 235px;
+  padding: 12px 74px;
+}
+
+.btn:hover {
+  background: #EB443F;
+  cursor: pointer;
+  caret-color: #000;
+}
+
+.btn__text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.games {
+  background-color: #000915;
+}
+
+.games__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 128px 0px;
+  gap: 30px;
+}
+
+.item__img {
+  border-radius: 20px;
+  border: 3px solid transparent;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.item__img:hover {
+  border: 3px solid #44D2FF;
+}
+
+.games__item {
+  position: relative;
+  max-width: 379px;
+}
+
+.games__text {
+  position: absolute;
+  bottom: 32px;
+  left: 32px;
+}
+
+.games__link {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+
+.product {
+  background-color: #000915;
+}
+
+.product__box {
+  padding: 233px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 59px;
+  color: #FFFFFF;
+  margin-bottom: 32px;
+}
+
+.product__text {
+  max-width: 584px;
+}
+
+.riddles {
+  background-image: url(/img/bachground_2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.riddles__text {
+  text-align: center;
+  max-width: 1200px;
+}
+
+.footer {
+  background-color: #000915;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FFFFFF;
+  padding: 32px 0px;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    padding: 0px 25px;
+  }
+  .top {
+    background-position: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .top__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .top__title {
+    text-align: center;
+    font-size: 32px;
+    line-height: 39px;
+  }
+  .top__text {
+    text-align: center;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .top__btn {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .product__box {
+    padding: 50px 0px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .product__box-reverse {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .product__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .product__title {
+    text-align: center;
+  }
+  .product__text {
+    text-align: center;
+  }
+  .product__img {
+    width: 344px;
+    height: 236px;
+    padding-top: 64px;
+  }
+  .item__img {
+    width: 330px;
+  }
+  .game-3_btn {
+    margin-bottom: 487px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

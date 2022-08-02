@@ -1,0 +1,74 @@
+@media (max-width: 1200px) {
+    .container {
+        padding: 0px 25px;
+    }
+
+    .top {
+        background-position: center;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .top__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .top__title {
+        text-align: center;
+        font-size: 32px;
+        line-height: 39px;
+    }
+
+    .top__text {
+        text-align: center;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .top__btn {
+        align-items: center;
+    }
+
+    .product__box{
+        padding: 50px 0px;
+        justify-content: center;
+    }
+
+    .product__box-reverse {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .product__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product__title{
+        text-align: center;
+    }
+
+    .product__text{
+        text-align: center;
+    }
+
+    .product__img {
+        width: 344px;
+        height: 236px;
+        padding-top: 64px;
+    }
+
+   .item__img {
+        width: 330px;
+    }
+
+    .game-3_btn {
+        margin-bottom: 487px;
+    }
+}
