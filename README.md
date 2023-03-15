@@ -5,7 +5,7 @@ I created this project with basic JavaScript games while learning JavaScript bas
 
 It contains 3 games that will test your attention, memory and critical thinking
 
-To see this project you can follow this link **https://kittysaur.github.io/simple-js-game/**
+To see this project you can follow this [link](https://zarina-n.github.io/simple-js-game/)
 
 ### What I learned while working on this project and JS basics course in general:
 * Code structure
